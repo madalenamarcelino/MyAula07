@@ -20,9 +20,18 @@ namespace BookManager
         {
             return title;
         }
+        public int GetTitleLength()
+        {
+            return title.Length;
+        }
+
         public void SetTitle(string title)
         {
-            this.title = title;
+            if(title != null && title.Length > 0 )
+            {
+                this.title = title;
+            }
+            
         }
         public void AssignWordCountFromText(string text)
         {
