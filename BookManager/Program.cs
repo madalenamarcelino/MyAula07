@@ -41,6 +41,8 @@ namespace BookManager
                 //show author
                 Console.WriteLine("Author: " + b.GetAuthor());
             }
+
+            Console.WriteLine(Book.GetTotalBooks());
         }
     }
 }
