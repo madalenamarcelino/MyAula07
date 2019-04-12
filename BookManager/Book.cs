@@ -37,5 +37,9 @@ namespace BookManager
         {
             wordCount = text.Split(' ').Length;
         }
+        public string GetAuthor()
+        {
+            return author;
+        }
     }
 }
